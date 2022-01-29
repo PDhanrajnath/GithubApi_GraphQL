@@ -34,7 +34,7 @@ const typeDefs = gql`
 `;
 
 const github_data = {
-  token: "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",
+  token: "ghp_hUKa2no..............",
   userName: "PDhanrajnath",
   repo: "Apollo-GraphQL-React",
 };
