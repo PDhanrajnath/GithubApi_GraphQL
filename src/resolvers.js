@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 const github_data = {
-  token: "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",
+  token: "ghp_W.......",
   userName: "PDhanrajnath",
   repo: "Apollo-GraphQL-React",
 };
