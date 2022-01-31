@@ -1,10 +1,9 @@
 import fetch from "node-fetch";
-import { headersForAuth, baseUrl } from "./constants";
+import { headersForAuth, baseUrl } from "./constants.js";
 
 const resolvers = {
   Query: {
     getUser: async (_parent) => {
-      console.log(process.env.BASE_URL);
       const response = await fetch(baseUrl, {
         method: "GET",
         headers: headersForAuth,
