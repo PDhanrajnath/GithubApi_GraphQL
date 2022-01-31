@@ -28,28 +28,9 @@ const typeDefs = gql`
     two_factor_authentication: Boolean
   }
 
-  type Owner {
-    login: String
-    id: Int
-    node_id: String
-    avatar_url: String
-    url: String
-    type: String
-    site_admin: Boolean
-  }
-  type OrgRepos {
-    id: Int
-    full_name: String
-    url: String
-    description: String
-    html_url: String
-    visibility: String
-    owner: Owner
-  }
 
   type Query {
     getUser: User
-    getOrgRepos(orgName: String): OrgRepos
   }
 `;
 
